@@ -1,0 +1,25 @@
+In programming (especially in Java),
+User Defined Data Types (UDTs) are data types
+that you create yourself
+ using built-in types like int, float, or String.
+
+They help you model real-world entities (like Student, Employee, Car, etc.) in your program.
+
+🔹 What is a User Defined Data Type?
+A User Defined Data Type is a data type created by the programmer using:
+class
+interface
+enum
+array (sometimes considered)
+
+👉 Most commonly: class is used
+
+🔹 Why use UDT?
+Because real-world data is complex.
+Example:
+A student has:
+name
+age
+marks
+
+👉 You cannot store all this in a single int or String, so you create a custom type (class).

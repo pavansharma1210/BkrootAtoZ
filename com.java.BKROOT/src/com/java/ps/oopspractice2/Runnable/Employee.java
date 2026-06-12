@@ -1,4 +1,4 @@
-package com.java.ps.oopspractice2.multithreading;
+package com.java.ps.oopspractice2.Runnable;
 
  class Employee {
      void work(){

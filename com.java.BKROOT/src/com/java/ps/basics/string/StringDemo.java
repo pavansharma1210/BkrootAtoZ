@@ -1,4 +1,4 @@
-package com.java.ps.basics;
+package com.java.ps.basics.string;
 
 public class StringDemo {
     public static void main(String[] args) {

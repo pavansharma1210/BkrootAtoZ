@@ -1,0 +1,12 @@
+package com.java.ps.oops.functionalinterface.usinglamda;
+
+interface Add{
+    int sum(int a , int b);
+}
+public class Main {
+    public void main(String[] args) {
+        Add add = (a,b) -> a+b;
+        System.out.println(add.sum(10,20));
+
+    }
+}

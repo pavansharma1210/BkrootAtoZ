@@ -1,4 +1,4 @@
-package com.java.ps.oopspractice2.lamdaexpression;
+package com.java.ps.oopspractice2.lamdaexpression.NoParameterNoReturnValue;
 
 //Functional interface
 interface Greeting {

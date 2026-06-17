@@ -21,14 +21,16 @@ public class ListInterfaceExamples {
         Stack<String> st = new Stack<>();
         st.push("BK");
         st.push("Root");
+        System.out.println(st);
         System.out.println(st.peek()); //root
         System.out.println(st.pop());//root (will also remove it)
         System.out.println(st.peek());
-       // System.out.println(st.size()); //1
-       // System.out.println(st.empty()); //false
+        System.out.println(st.size()); //1
+        System.out.println(st.empty()); //false
     }
         public static void main (String[]args){
-            ArrayListExamples();
+            //ArrayListExamples();
+            StackExamples();
         }
     }
 

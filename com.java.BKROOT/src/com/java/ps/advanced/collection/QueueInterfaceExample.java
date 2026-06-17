@@ -1,10 +1,20 @@
 package com.java.ps.advanced.collection;
 
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class QueueInterfaceExample {
+
+    static void DequeExample(){
+        Deque<Integer> dq = new ArrayDeque<>();
+        dq.add(1);
+        dq.addFirst(2);
+        dq.addLast(3);
+        dq.addLast(4);
+        System.out.println(dq); //2 1 3 4
+        System.out.println(dq.pollFirst()); //remove Firstelement
+        System.out.println(dq.pollLast());
+        System.out.println(dq); //1 3
+    }
     static void priorityQueueExampels(){
          PriorityQueue<Integer> pq = new PriorityQueue<>(); //min pq
       //  PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder()); //max pq
@@ -38,7 +48,8 @@ public class QueueInterfaceExample {
 
     }
     public static void main(String[] args) {
-        priorityQueueExampels();
+        DequeExample();
+       // priorityQueueExampels();
        // QueueExample();
 
 
